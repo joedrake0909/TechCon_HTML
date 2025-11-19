@@ -4,209 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - TechCon 2024</title>
-    <style>
-        /* Basic styling for the page */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        
-        body {
-            background-color: #f5f7fa;
-            color: #333;
-            line-height: 1.6;
-        }
-        
-        header {
-            background-color: #1a237e;
-            color: white;
-            padding: 1.5rem 0;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        
-        h1 {
-            margin-bottom: 1rem;
-            font-size: 2.5rem;
-        }
-        
-        nav {
-            margin-top: 1rem;
-        }
-        
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 1rem;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-        
-        nav a:hover {
-            color: #64ffda;
-        }
-        
-        main {
-            max-width: 1200px;
-            margin: 2rem auto;
-            padding: 0 1.5rem;
-        }
-        
-        .contact-container {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 2rem;
-            margin-bottom: 2rem;
-        }
-        
-        @media (max-width: 768px) {
-            .contact-container {
-                grid-template-columns: 1fr;
-            }
-        }
-        
-        .contact-info {
-            background: white;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-        }
-        
-        .contact-info h2 {
-            color: #1a237e;
-            margin-bottom: 1.5rem;
-            border-bottom: 2px solid #e8eaf6;
-            padding-bottom: 0.5rem;
-        }
-        
-        .contact-details {
-            margin-bottom: 2rem;
-        }
-        
-        .contact-item {
-            margin-bottom: 1rem;
-            display: flex;
-            align-items: center;
-        }
-        
-        .contact-item i {
-            margin-right: 10px;
-            color: #1a237e;
-            width: 20px;
-            text-align: center;
-        }
-        
-        .social-links {
-            display: flex;
-            gap: 1rem;
-            margin-top: 1rem;
-        }
-        
-        .social-link {
-            display: inline-block;
-            padding: 0.5rem 1rem;
-            background-color: #1a237e;
-            color: white;
-            text-decoration: none;
-            border-radius: 4px;
-            transition: background-color 0.3s;
-        }
-        
-        .social-link:hover {
-            background-color: #303f9f;
-        }
-        
-        .map-container {
-            background: white;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-        }
-        
-        .map-container h2 {
-            color: #1a237e;
-            margin-bottom: 1.5rem;
-            border-bottom: 2px solid #e8eaf6;
-            padding-bottom: 0.5rem;
-        }
-        
-        .map-iframe {
-            width: 100%;
-            height: 300px;
-            border: none;
-            border-radius: 4px;
-        }
-        
-        .contact-form {
-            background: white;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-            margin-top: 2rem;
-        }
-        
-        .contact-form h2 {
-            color: #1a237e;
-            margin-bottom: 1.5rem;
-            border-bottom: 2px solid #e8eaf6;
-            padding-bottom: 0.5rem;
-        }
-        
-        .form-group {
-            margin-bottom: 1.5rem;
-        }
-        
-        label {
-            display: block;
-            margin-bottom: 0.5rem;
-            font-weight: 500;
-            color: #1a237e;
-        }
-        
-        input, textarea {
-            width: 100%;
-            padding: 0.75rem;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            font-size: 1rem;
-            transition: border-color 0.3s;
-        }
-        
-        input:focus, textarea:focus {
-            border-color: #1a237e;
-            outline: none;
-        }
-        
-        textarea {
-            min-height: 150px;
-            resize: vertical;
-        }
-        
-        button {
-            background-color: #1a237e;
-            color: white;
-            border: none;
-            padding: 0.75rem 1.5rem;
-            font-size: 1rem;
-            border-radius: 4px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-        
-        button:hover {
-            background-color: #303f9f;
-        }
-        
-        footer {
-            background-color: #1a237e;
-            color: white;
-            text-align: center;
-            padding: 1.5rem 0;
-            margin-top: 3rem;
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -220,61 +17,48 @@
     </header>
 
     <main>
-        <div class="contact-container">
-            <section class="contact-info">
-                <h2>Contact Information</h2>
-                <div class="contact-details">
-                    <div class="contact-item">
-                        <i>📧</i>
-                        <a href="mailto:email@example.com">email@example.com</a>
-                    </div>
-                    <div class="contact-item">
-                        <i>📞</i>
-                        <span>+1 (555) 123-4567</span>
-                    </div>
-                    <div class="contact-item">
-                        <i>📍</i>
-                        <span>123 Tech Avenue, Innovation City, IC 12345</span>
-                    </div>
-                </div>
-                
-                <h3>Follow Us</h3>
-                <div class="social-links">
-                    <a href="https://twitter.com/techcon" target="_blank" class="social-link">Twitter</a>
-                    <a href="https://linkedin.com/company/techcon" target="_blank" class="social-link">LinkedIn</a>
-                    <a href="https://facebook.com/techcon" target="_blank" class="social-link">Facebook</a>
-                    <a href="https://instagram.com/techcon" target="_blank" class="social-link">Instagram</a>
-                </div>
-            </section>
+        <section>
+            <h2>Contact Information</h2>
+            <p>Email: <a href="mailto:email@example.com">email@example.com</a></p>
             
-            <section class="map-container">
-                <h2>Conference Venue</h2>
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.177715803328!2d-74.00594908459418!3d40.71272807933185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a316e0b8f5f%3A0x7c2a1b6c2e1c3e3d!2sTech%20Innovation%20Center!5e0!3m2!1sen!2sus!4v1641234567890!5m2!1sen!2sus" 
-                    class="map-iframe" 
-                    allowfullscreen="" 
-                    loading="lazy" 
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-            </section>
-        </div>
-        
-        <section class="contact-form">
-            <h2>Send Us a Message</h2>
+            <h3>Social Media</h3>
+            <ul>
+                <li><a href="https://twitter.com/techcon" target="_blank">Twitter</a></li>
+                <li><a href="https://linkedin.com/company/techcon" target="_blank">LinkedIn</a></li>
+                <li><a href="https://facebook.com/techcon" target="_blank">Facebook</a></li>
+                <li><a href="https://instagram.com/techcon" target="_blank">Instagram</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Conference Location</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.177715803328!2d-74.00594908459418!3d40.71272807933185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a316e0b8f5f%3A0x7c2a1b6c2e1c3e3d!2sTech%20Innovation%20Center!5e0!3m2!1sen!2sus!4v1641234567890!5m2!1sen!2sus" 
+                width="100%" 
+                height="400" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+
+        <section>
+            <h2>Contact Form</h2>
             <form action="#" method="post">
-                <div class="form-group">
-                    <label for="name">Name</label>
+                <div>
+                    <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required>
                 </div>
                 
-                <div class="form-group">
-                    <label for="email">Email</label>
+                <div>
+                    <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required>
                 </div>
                 
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" required></textarea>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
                 </div>
                 
                 <button type="submit">Send Message</button>
